@@ -1,0 +1,23 @@
+{% extends "includes/base.html" %}
+{% load static %}
+
+
+{% block base %}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            <img class="d-block w-100" src="{% static 'media/imgs/1.jfif' %}" alt="">
+        </div>
+        <div class="col-5">
+            <img class="img-fluid" src="{% static 'media/imgs/2.jfif' %}" alt="">
+        </div>
+        <div class="col-4">
+            <img class="img-fluid" src="{% static 'media/imgs/3.jfif' %}" alt="">
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
